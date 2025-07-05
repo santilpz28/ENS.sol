@@ -34,16 +34,6 @@ Most ENS clones are **huge or fragile**.
 
 ---
 
-## ⚙️  Install & build
-
-```bash
-# 1. Clone & install libs
-git clone https://github.com/<YOU>/simple-ens.git && cd simple-ens
-forge install OpenZeppelin/openzeppelin-contracts          # OZ
-forge install foundry-rs/forge-std                         # tests / console
-
-# 2. Compile
-forge build
 
 # 3. Run tests
 forge test -vvvv
